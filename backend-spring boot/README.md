@@ -95,3 +95,22 @@
 **service-implementation**
 
 **controller**
+##  How to Run the Project
+
+### Prerequisites
+- Java JDK 8+
+- Node.js & npm
+- MySQL
+- Git
+
+### Backend (Spring Boot)
+1. Configure MySQL in `application.properties`
+2. Run Spring Boot application
+3. Backend runs on `http://localhost:8080`
+
+### Frontend (ReactJS)
+1. Navigate to frontend folder
+2. Run `npm install`
+3. Run `npm start`
+4. Frontend runs on `http://localhost:3000`
+
