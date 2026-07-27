@@ -33,7 +33,7 @@ This is a full stack food delivery web application built using Spring Boot, Reac
 - Category
 - Address
 
-(Delivery Executive entity was planned initially but not implemented in this version)
+
 
 ## Project Structure
 
