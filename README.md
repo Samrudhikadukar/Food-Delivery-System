@@ -1,64 +1,70 @@
-Zosh Food - Food Delivery System
+# Zosh Food - Food Delivery System
 
 This is a full stack food delivery web application built using Spring Boot, ReactJS, MySQL and Razorpay. Users can order food online from restaurants and make payments securely.
 
-Features:-
+## Features
 
-User registration and login (Customer and Restaurant Owner roles)
-Browse restaurants and their menus
-Add items to cart and place orders
-Payment integration using Razorpay
-Ratings and reviews for restaurants
-Coupons and promotions
-Order tracking and notifications
+- User registration and login (Customer and Restaurant Owner roles)
+- Browse restaurants and their menus
+- Add items to cart and place orders
+- Payment integration using Razorpay
+- Ratings and reviews for restaurants
+- Coupons and promotions
+- Order tracking and notifications
 
-Tech Stack:-
+## Tech Stack
 
-Backend: Spring Boot
-Frontend: ReactJS
-Database: MySQL
-Payment Gateway: Razorpay
-Entities Used:-
+- Backend: Spring Boot
+- Frontend: ReactJS
+- Database: MySQL
+- Payment Gateway: Razorpay
 
-User
-Restaurant
-Menu Item
-Order
-Order Item
-Payment
-Review/Rating
-Promotion/Coupon
-Notification
-Category
-Address
+## Entities Used
+
+- User
+- Restaurant
+- Menu Item
+- Order
+- Order Item
+- Payment
+- Review/Rating
+- Promotion/Coupon
+- Notification
+- Category
+- Address
 
 (Delivery Executive entity was planned initially but not implemented in this version)
 
-Project Structure
+## Project Structure
+
+```
 Food-Delivery-System/
 ├── backend-spring boot/
 ├── frontend_food/
 ├── Zosh Food.postman_collection.json
 ├── Set Project on your local machine.txt
 └── README.md
+```
 
-How to Run:-
+## How to Run
 
 Backend:
-
+```
 cd backend-spring boot
 mvn spring-boot:run
+```
 
 Frontend:
-
+```
 cd frontend_food
 npm install
 npm start
+```
 
-For API testing, import the Postman collection file given in the repo. Check "Set Project on your local machine.txt" for setup steps.
+For API testing, import the Postman collection file given in the repo.
+Check "Set Project on your local machine.txt" for setup steps.
 
-
-Screenshots
+## Screenshots
 
 <img width="529" height="264" alt="image" src="https://github.com/user-attachments/assets/513ca7dc-f248-4c07-bc13-65012a3afe1e" />
 
