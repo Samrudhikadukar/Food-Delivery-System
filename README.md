@@ -28,8 +28,6 @@ This is a full stack food delivery web application built using Spring Boot, Reac
 - Order Item
 - Payment
 - Review/Rating
-- Promotion/Coupon
-- Notification
 - Category
 - Address
 
