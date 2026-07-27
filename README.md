@@ -1,107 +1,64 @@
-# Zosh Food
+Zosh Food - Food Delivery System
 
-1. **User:**
-    - ID (Auto-generated)
-    - Username
-    - Password
-    - Email
-    - Phone Number
-    - Address
-    - Role (Customer or Restaurant Owner)
-    - Registration Date
-    - Last Login Date
-2. **Restaurant:**
-    - ID (Auto-generated)
-    - Name
-    - Description
-    - Cuisine Type
-    - Address
-    - Contact Information
-    - Opening Hours
-    - Ratings
-    - Image URL
-    - Registration Date
-3. **Menu Item:**
-    - ID (Auto-generated)
-    - Name
-    - Description
-    - Price
-    - Category
-    - Image URL
-    - Availability Status
-    - Restaurant (reference to Restaurant entity)
-    - Creation Date
-4. **Order:**
-    - ID (Auto-generated)
-    - Customer (reference to User entity)
-    - Restaurant (reference to Restaurant entity)
-    - Total Amount
-    - Order Status
-    - Timestamp
-    - Delivery Address
-    - Items (list of Order Items)
-    - Payment (reference to Payment entity, if applicable)
-5. **Order Item:**
-    - ID (Auto-generated)
-    - Menu Item (reference to Menu Item entity)
-    - Quantity
-    - Subtotal
-    - Order (reference to Order entity)
-6. **Payment:**
-    - ID (Auto-generated)
-    - Order (reference to Order entity)
-    - Payment Method
-    - Payment Status
-    - Total Amount
-    - Payment Timestamp
-7. **~~Delivery Executive:~~**
-    - ~~ID (Auto-generated)~~
-    - ~~Name~~
-    - ~~Contact Information~~
-    - ~~Availability Status~~
-    - ~~Current Location (Latitude and Longitude)~~
-8. **Review/Rating:**
-    - ID (Auto-generated)
-    - Customer (reference to User entity)
-    - Restaurant (reference to Restaurant entity)
-    - Rating
-    - Review Text
-    - Timestamp
-9. **Promotion/Coupon:**
-    - ID (Auto-generated)
-    - Code
-    - Discount Amount
-    - Validity Period
-    - Terms and Conditions
-10. **Notification:**
-    - ID (Auto-generated)
-    - Recipient (reference to User, Restaurant, or Delivery Executive entity)
-    - Message
-    - Timestamp
-    - Read Status
-11. **Category:**
-    - ID (Auto-generated)
-    - Name
-12. **Address:**
-    - ID (Auto-generated)
-    - Street Address
-    - City
-    - State/Province
-    - Postal Code
-    - Country
-    
-13. contact information
-    - email
-    - mobile
-    - twitter
-    - instagram
+This is a full stack food delivery web application built using Spring Boot, ReactJS, MySQL and Razorpay. Users can order food online from restaurants and make payments securely.
 
-**service**
+Features:-
 
-**service-implementation**
+User registration and login (Customer and Restaurant Owner roles)
+Browse restaurants and their menus
+Add items to cart and place orders
+Payment integration using Razorpay
+Ratings and reviews for restaurants
+Coupons and promotions
+Order tracking and notifications
 
-**controller**
+Tech Stack:-
 
+Backend: Spring Boot
+Frontend: ReactJS
+Database: MySQL
+Payment Gateway: Razorpay
+Entities Used:-
+
+User
+Restaurant
+Menu Item
+Order
+Order Item
+Payment
+Review/Rating
+Promotion/Coupon
+Notification
+Category
+Address
+
+(Delivery Executive entity was planned initially but not implemented in this version)
+
+Project Structure
+Food-Delivery-System/
+├── backend-spring boot/
+├── frontend_food/
+├── Zosh Food.postman_collection.json
+├── Set Project on your local machine.txt
+└── README.md
+
+How to Run:-
+
+Backend:
+
+cd backend-spring boot
+mvn spring-boot:run
+
+Frontend:
+
+cd frontend_food
+npm install
+npm start
+
+For API testing, import the Postman collection file given in the repo. Check "Set Project on your local machine.txt" for setup steps.
+
+
+Screenshots
 
 <img width="529" height="264" alt="image" src="https://github.com/user-attachments/assets/513ca7dc-f248-4c07-bc13-65012a3afe1e" />
 
